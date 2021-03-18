@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*                   Custom Style                          */
+
+
+/*   Custom Style Header   */
+header{
+	text-align: center;
+	padding: 20px;
+	background-color: darkblue;
+}
+a{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 20px;
+}
+.blog-page-link{
+	color: rgb(33, 226, 33);
+}
+
+/* Custom Style  BLOG PAGE */
+
+.section{
+    background-color: white;
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    }
+
+/*    Section 1 BLOG PAGE   */
+
+.article-image{
+    width: 500px;
+    height: 300px;
+    padding:10px;
+}
+.article-text{
+    
+    width: 500px;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding: 10px;
+    margin-left: 20px;
+}
+.first-article-text
+{
+    display: inline-block;
+}
+.heading{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.section-two-heading
+{
+    margin-top: 10px;
+}
+.para{
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 50px;
+}
+.section-two-para
+{
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.firs-section-read-more-link{
+    background-color: rgb(17, 146, 17);
+    border-radius: 20px;
+}
+/*    Section 2 BLOG PAGE     */
+.second-section-article{
+    display: inline-block;
+    vertical-align: top;
+}
+.second-section-learn-more{
+    color: rgb(59, 180, 59);
+    text-decoration: underline;
+    padding: 0px;
+}
+
+
+
+
